@@ -74,7 +74,7 @@ end
 local function createGui(player)
 
 	local gui = Instance.new("ScreenGui")
-	gui.Name = "DarxzZeroImmortal"
+	gui.Name = "DarxzGodMode-By ShizkGG_4HCKR"
 	gui.ResetOnSpawn = false
 	gui.Parent = player:WaitForChild("PlayerGui")
 
@@ -102,7 +102,7 @@ local function createGui(player)
 	local button = Instance.new("TextButton", frame)
 	button.Size = UDim2.new(0.8,0,0.3,0)
 	button.Position = UDim2.new(0.1,0,0.5,0)
-	button.Text = "IMMORTAL : OFF"
+	button.Text = "GODMODE : OFF"
 	button.TextScaled = true
 	button.Font = Enum.Font.GothamBold
 	button.BackgroundColor3 = Color3.new(0,0,0)
@@ -132,7 +132,7 @@ local function createGui(player)
 			button.Text = "IMMORTAL : ON"
 			button.BackgroundColor3 = Color3.fromRGB(0,255,150)
 		else
-			button.Text = "IMMORTAL : OFF"
+			button.Text = "GODMODE : OFF"
 			button.BackgroundColor3 = Color3.new(0,0,0)
 		end
 	end)
