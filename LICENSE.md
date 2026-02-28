@@ -141,4 +141,3 @@ local function createGui(player)
 		click:Play()
 		gui.Enabled = false
 	end)
-end
