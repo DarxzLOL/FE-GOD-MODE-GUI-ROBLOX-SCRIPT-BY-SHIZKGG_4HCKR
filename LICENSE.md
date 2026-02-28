@@ -140,4 +140,4 @@ local function createGui(player)
 	close.MouseButton1Click:Connect(function()
 		click:Play()
 		gui.Enabled = false
-	end)
+	end
